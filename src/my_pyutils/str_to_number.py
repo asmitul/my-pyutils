@@ -1,4 +1,5 @@
-from typing import Union, Optional
+"""Convert string values to numbers."""
+from typing import Optional, Union
 
 
 def str_to_number(value: str) -> Optional[Union[int, float]]:

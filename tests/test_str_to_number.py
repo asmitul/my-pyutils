@@ -1,4 +1,3 @@
-import pytest
 from my_pyutils.str_to_number import str_to_number
 
 
