@@ -1,14 +1,15 @@
 from typing import Union, Optional
 
+
 def str_to_number(value: str) -> Optional[Union[int, float]]:
     """Convert string to number (int or float).
-    
+
     Args:
         value: String value to convert
-        
+
     Returns:
         int or float if conversion successful, None if failed
-        
+
     Examples:
         >>> str_to_number("123")
         123
