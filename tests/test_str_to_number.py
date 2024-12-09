@@ -55,3 +55,4 @@ def test_str_to_number_edge_cases():
     # Test very large numbers
     assert str_to_number("999999999999999") == 999999999999999
     assert str_to_number("1e308") == 1e308
+    
