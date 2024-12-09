@@ -26,4 +26,4 @@ def str_to_number(value: str) -> Optional[Union[int, float]]:
             # Try converting to float
             return float(value)
         except ValueError:
-            return None 
+            return None
